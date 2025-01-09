@@ -1,0 +1,82 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\ASUS\\source\\repos\\TxEditor\\TxEditor\\TxEditor.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\ASUS\\source\\repos\\TxEditor\\TxEditor\\TxEditor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ASUS\\source\\repos\\TxEditor\\TxEditor\\TxEditor.csproj",
+        "projectName": "TxEditor",
+        "projectPath": "C:\\Users\\ASUS\\source\\repos\\TxEditor\\TxEditor\\TxEditor.csproj",
+        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ASUS\\source\\repos\\TxEditor\\TxEditor\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files (x86)\\Text Control GmbH\\NuGetPackages": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.abp.io/a7f0a654-d40f-4b97-a9f6-c53b5bdfee6c/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "TXTextControl.TextControl.ASP.SDK": {
+              "target": "Package",
+              "version": "[32.0.4, )"
+            },
+            "TXTextControl.Web": {
+              "target": "Package",
+              "version": "[32.4.0, )"
+            },
+            "TXTextControl.Web.DocumentViewer": {
+              "target": "Package",
+              "version": "[32.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@using TXTextControl.Web.MVC;
+
+<div style="width: 1200px; height: 800px;" dir="ltr">
+
+    @Html.TXTextControl().TextControl(settings =>
+    {
+    settings.Dock = TXTextControl.Web.DockStyle.Fill;
+
+    }).Render()
+</div>
+
+
